@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index.ts",
     "test:load-envs": "dotenv -e .env.test",
     "test": "npm run test:load-envs jest",
     "test:coverage": "npm run test:load-envs -- jest -- --coverage --runInBand",
